@@ -9,15 +9,14 @@ export type Sale = {
     seller: Seller;
 }
 
-
-export type SalePage =  {
+export type SalePage = {
     content?: Sale[];
     last: boolean;
     totalElements: number;
     totalPages: number;
     size?: number;
     number: number;
-    first: boolean,
+    first: boolean;
     numberOfElements?: number;
     empty?: boolean;
 }
@@ -32,6 +31,3 @@ export type SaleSuccess = {
     visited: number;
     deals: number;
 }
-
-
-
